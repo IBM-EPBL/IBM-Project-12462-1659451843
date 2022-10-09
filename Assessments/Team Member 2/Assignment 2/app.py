@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from markupsafe import escape
 
 import ibm_db
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=764264db-9824-4b7c-82df-40d1b13897c2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=32536;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=mbb92633;PWD=59ZTXED7hfL8E3IU",'','')
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=30119;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=jnl99941;PWD=0rMgfdN2Xok2iZKR",'','')
 
 app = Flask(__name__, template_folder="./Templates")
 
